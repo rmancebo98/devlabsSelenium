@@ -34,8 +34,8 @@ public class Setup implements ITestListener, IRetryAnalyzer {
 
     @AfterSuite
     public void tearDown(){
-//        minimizeWindow();
-//        driver.quit();
+        minimizeWindow();
+        driver.quit();
     }
 
     @Override
